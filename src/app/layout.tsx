@@ -3,6 +3,7 @@ import "./globals.css"
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar/Navbar"
 import { Poppins } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased light`}>
+        <Analytics/>
         <Navbar />
         {children}
         <div className="h-fit w-full ">
