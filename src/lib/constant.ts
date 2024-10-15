@@ -44,7 +44,7 @@ export const products = [
     name: "ATP GOLD Tablets",
     breadcrumbs: [
       { id: 1, name: "Home", href: "/" },
-      { id: 2, name: "Products", href: "#" }
+      { id: 2, name: "Products", href: "/#products" }
     ],
     images: "/images/apt_1.png",
     productImg: "/images/atptab.png",
@@ -64,7 +64,7 @@ export const products = [
     "name": "ROSTRO-DSR Capsules",
     "breadcrumbs": [
       { "id": 1, "name": "Home", "href": "/" },
-      { "id": 2, "name": "Products", "href": "#" }
+      { "id": 2, "name": "Products", "href": "/#products" }
     ],
     productImg: "/images/rostab.png",
     "images": "/images/rostro.png",
@@ -94,7 +94,7 @@ export const products = [
     "name": "TEDFLAM-SP Tablets",
     "breadcrumbs": [
       { "id": 1, "name": "Home", "href": "/" },
-      { "id": 2, "name": "Products", "href": "#" }
+      { "id": 2, "name": "Products", "href": "/#products" }
     ],
     productImg: "/images/tedtab.png",
     "images": "/images/tedflam.png",
@@ -124,7 +124,7 @@ export const products = [
     "name": "MIRAZEF-S Injection",
     "breadcrumbs": [
       { "id": 1, "name": "Home", "href": "/" },
-      { "id": 2, "name": "Products", "href": "#" }
+      { "id": 2, "name": "Products", "href": "/#products" }
     ],
     productImg: "/images/injectionb.png",
     "images": "/images/injection.png",
@@ -154,7 +154,7 @@ export const products = [
     "name": "ATP GOLD Syrup",
     "breadcrumbs": [
       { "id": 1, "name": "Home", "href": "/" },
-      { "id": 2, "name": "Products", "href": "#" }
+      { "id": 2, "name": "Products", "href": "/#products" }
     ],
     productImg: "/images/atpsyrupb.png",
     "images": "/images/apts2.png",
